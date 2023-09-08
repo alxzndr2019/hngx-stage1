@@ -11,8 +11,8 @@ app.get("/api", (req, res) => {
   const utcTime = currentDate.toISOString();
 
   const githubFileUrl =
-    "https://github.com/username/repo/blob/main/file_name.ext";
-  const githubRepoUrl = "https://github.com/username/repo";
+    "https://github.com/alxzndr2019/hngx-stage1/blob/main/server.js";
+  const githubRepoUrl = "https://github.com/alxzndr2019/hngx-stage1";
 
   const jsonResponse = {
     slack_name: slackName,
